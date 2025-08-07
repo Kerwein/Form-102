@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Form 102</title>
+</head>
+<body>
+   
+<img src="League of Legends.jpg" alt="League of Legends Photo Cover" border="5" hspace="10" vspace="10" height="160" width="280" align="left" >
+
+<p>
+   <h1>Welcome to the League of Legends Player Info Form!</h1> <br>
+   This page is designed to gather essential details about you and your in-game experience in the world of Runeterra. League of Legends is a popular multiplayer online battle arena (MOBA) game where two teams of five players, each controlling a powerful champion, battle to destroy the enemy's Nexus. The game is known for its diverse cast of champions, strategic depth, and competitive esports scene. Please fill out the form to help us understand more about your journey on the Summoner's Rift.
+</p>
+<br>
+<hr>
+
+ <h2>Player Highlights</h2>
+<video src="Highlights101.mp4" controls autoplay height="360" width="320" hspace="10" vspace="10" align="left"></video>
+<label for="message">Message:</label>
+<textarea align="center" id="message" name="message" rows="5" cols="100"></textarea>
+<hr>
+<h3>In-Game Information</h3>
+    <fieldset>
+        <legend>Summoners In-Game Information</legend>
+        <table>
+            <tr>
+                <td><label for="Summoner In-Game Name">Summoner In-Game Name:</label></td>
+                <td><input type="text" id="Summoner In-Game Name" name="Summoner In-Game Name" placeholder="e.g.,Faker" maxlength="20" required></td>
+            </tr>
+            </table>
+                        <label for="Roles">Main Role:</label>
+                        <select id="main role" name="main role">
+                        <option value="top">Top</option>
+                        <option value="jungle">Jungle</option>
+                        <option value="mid">Mid</option>
+                        <option value="adc">ADC</option>
+                        <option value="support">Support</option>
+                        </select>
+        <table>
+            <tr>
+                <td><label for="Current Rank">Current Rank:</label></td>
+                <td><input type="text" id="Current Rank" name="Current Rank" placeholder="e.g., Diamond, Master, GrandMaster" maxlength="20" required></td>
+            </tr>
+            <tr>
+                <td><label for="Setting Quality">Setting Quality:</label></td>
+                <td><input type="text" id="Setting Quality" name="Setting Quality" value="High" required></td>
+            </tr>
+            </table>
+    </fieldset>
+    <hr>
+<h3> Summoners Personal Information</h3>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <table>
+            <tr>
+                <td><label for="name">Name:</label>
+                <td><input type="text" id="name" placeholder="Full Name" required>
+            </tr>
+            <tr>
+                <td><label for="age">Age:</label>
+                <td><input type="number" id="number" min="17" max="30" required>
+            </tr>
+            <tr>
+                <td><label for="sex">Sex:</label>
+                <td><input type="text" id="sex" autocomplete="sex" required>
+            </tr>
+            <tr>
+                <td><label for="server id">Service Id:</label>
+                <td><input type="text" id="name" value="PH2" readonly>
+            </tr>
+        </table>
+              <button onclick="alert('Done')">Submit</button>
+    </fieldset>
+
+</body>
+</html>
